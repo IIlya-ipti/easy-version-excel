@@ -9,14 +9,7 @@
 #include "csv_class.h"
 
 double CSV_class::result_cell(const std::string &cell) {
-    int count_op = 0;
 
-
-    for(unsigned long i = 1; i < cell.size(); i++){
-        if(operations.count(cell[i]) > 0){
-            count_op++;
-        }
-    }
 
     double result_value = 0;
     unsigned long first_ind = 1;
