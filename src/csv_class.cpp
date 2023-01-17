@@ -50,7 +50,7 @@ CSV_class::CSV_class(const std::string &file_name) {
                 std::cout << "data is not correct" <<std::endl;
                 throw std::runtime_error("data is not correct");
             }
-            for (unsigned long j = 1; j < csv_table.size(); j++) {
+            for (unsigned long j = 1; j < csv_table[i].size(); j++) {
                 if (csv_table[i][j][0] == main_sep) {
                     csv_table[i][j] = std::to_string(result_cell(csv_table[i][j]));
                 }
