@@ -1,6 +1,6 @@
 
-#ifndef UNTITLED2_CSV_CLASS_H
-#define UNTITLED2_CSV_CLASS_H
+#ifndef CSV_CLASS_H
+#define CSV_CLASS_H
 
 #include <unordered_map>
 #include <vector>
@@ -27,4 +27,4 @@ public:
     void write() const ;
 };
 
-#endif //UNTITLED2_CSV_CLASS_H
+#endif //SV_CLASS_H

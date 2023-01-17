@@ -2,8 +2,8 @@
 // Created by Ilya on 17.01.2023.
 //
 
-#ifndef UNTITLED2_ADDITIONALLY_H
-#define UNTITLED2_ADDITIONALLY_H
+#ifndef ADDITIONALLY_H
+#define ADDITIONALLY_H
 
 
 /*
@@ -28,4 +28,4 @@ void erase_end_character(std::string& input, char ch );
  * [OUT] - number of lines in file
  * */
 size_t get_n_lines_file(const std::string& filename);
-#endif //UNTITLED2_ADDITIONALLY_H
+#endif //ADDITIONALLY_H
