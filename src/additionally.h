@@ -5,6 +5,13 @@
 #ifndef ADDITIONALLY_H
 #define ADDITIONALLY_H
 
+#include <sstream>
+#include <fstream>
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <vector>
+
 
 /*
  * [INP] input - string to split

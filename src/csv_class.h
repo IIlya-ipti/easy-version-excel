@@ -3,11 +3,16 @@
 #define CSV_CLASS_H
 
 #include <unordered_map>
+#include <sstream>
+#include <algorithm>
+#include <string>
+#include <iostream>
 #include <vector>
 #include <unordered_set>
 #include <string>
 #include <fstream>
 #include "additionally.h"
+
 
 class CSV_class{
 private:
@@ -27,4 +32,4 @@ public:
     void write() const ;
 };
 
-#endif //SV_CLASS_H
+#endif //CSV_CLASS_H

@@ -2,10 +2,6 @@
 // Created by Ilya on 17.01.2023.
 //
 
-#include <sstream>
-#include <algorithm>
-#include <string>
-#include <iostream>
 #include "csv_class.h"
 
 double CSV_class::result_cell(const std::string &cell) {
