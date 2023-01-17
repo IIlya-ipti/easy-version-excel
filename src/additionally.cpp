@@ -13,7 +13,7 @@ std::vector<std::string> split_string(const std::string &input, const char &sep)
     // length of result vec
     size_t count_sep = 0;
     for(const char& i : input){
-        if(i == ',')count_sep++;
+        if(i == sep)count_sep++;
     }
 
     // set and init split vector
