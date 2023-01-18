@@ -103,7 +103,7 @@ double CSV_class::get_cell(std::string value) {
     }
     unsigned long column_ind = ind_column_to_char[column];
     unsigned long line_ind = ind_line_to_int[line];
-    if(csv_table[line_ind][column_ind][0] == '=' || csv_table[line_ind][column_ind].empty()){
+    if(csv_table[line_ind][column_ind].empty() || csv_table[line_ind][column_ind][0] == '='){
         std::cout << "data is not correct" <<std::endl;
         throw std::runtime_error("data is not correct");
     }
